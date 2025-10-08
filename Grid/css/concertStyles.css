@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	min-width: 1085px;
+    display: flex;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 24px;
+
+}
+
+.concert-container {	
+	display: flex;
+	min-width: 780px;
+	flex-wrap: wrap;
+	border:1px solid green;
+}
+
+.card {
+	min-height: 150px;
+	min-width: 200px;
+	margin: 22px 15px 20px 6px;
+	border-radius: 25px;
+}
+
+.card .textos {
+	min-height: 200px;
+	min-width: 300px;
+	
+}
+.bg1{
+	background-image: url("../img/1.jpg");
+}
+.bg2{
+	background-image: url("../img/2.jpg");
+}
+.bg3{
+	background-image: url("../img/3.jpg");
+}
+.bg4{
+	background-image: url("../img/4.jpg");
+}
+.bg5{
+	background-image: url("../img/5.jpg");
+}
+.bg6{
+	background-image: url("../img/6.jpg");
+}
+
+.banner {
+	background-size: cover;
+	background: url("../img/banner.jpg") center center transparent;
+	min-width: 300px;
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
