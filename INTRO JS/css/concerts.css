@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1D202B;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1085px;
+  border: 1px solid red;
+  display: flex;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 24px;
+}
+
+.concert-container {
+  min-width: 774px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid green;
+}
+.concert-container .card {
+  min-height: 200px;
+  min-width: 225px;
+  margin: 22px 15px 20px 0px;
+  border-radius: 25px;
+}
+.concert-container .card .textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+  padding: 28px 0 0 14px;
+}
+
+.bg1 {
+  background-image: url("../img/1.jpg");
+}
+
+.bg2 {
+  background-image: url("../img/2.jpg");
+}
+
+.bg3 {
+  background-image: url("../img/3.jpg");
+}
+
+.bg4 {
+  background-image: url("../img/4.jpg");
+}
+
+.bg5 {
+  background-image: url("../img/5.jpg");
+}
+
+.bg6 {
+  background-image: url("../img/6.jpg");
+}
+
+.banner {
+  background: url(../img/banner.jpg) center center transparent;
+  background-size: cover;
+  min-width: 319px;
+  text-align: center;
+}
+.banner ul {
+  list-style: none;
+}
+.banner li {
+  margin: 15px;
+  font-weight: bold;
+}
+.banner .boton {
+  background: #FFD600;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}/*# sourceMappingURL=concerts.css.map */
